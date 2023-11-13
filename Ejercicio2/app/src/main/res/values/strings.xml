@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Ejercicio2</string>
+    <!--FORMULARIO-->
+    <!--Titulo-->
+    <string name="tvTitulo">Registro</string>
+    <!--Nombre-->
+    <string name="tvNombre">Nombre</string>
+    <string name="etNombre"></string>
+    <!--Apellidos-->
+    <string name="tvApellido">Apellidos</string>
+    <string name="etApellido"></string>
+    <!--Direccion-->
+    <string name="tvDireccion">Direccion</string>
+    <string name="etDireccion"></string>
+    <!--Telefono-->
+    <string name="tvTelefono">Telefono</string>
+    <string name="etTelefono"></string>
+    <!--Boton-->
+    <string name="btnProductos">Productos</string>
+
+    <!--Productos-->
+    <!--Titulo-->
+    <string name="tvProductos">Productos</string>
+
+    <!--Factura-->
+    <!--Titulo-->
+    <string name="tvFactura">Factura</string>
+
+</resources>

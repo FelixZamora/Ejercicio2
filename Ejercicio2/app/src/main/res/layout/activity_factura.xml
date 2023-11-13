@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".factura">
+
+    <TextView
+        android:id="@+id/tvFactura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Azul1"
+        android:padding="5dp"
+        android:textSize="22dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:text="@string/tvFactura" />
+
+    <!-- GridLayout para mostrar los productos -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:padding="16dp"
+        android:columnOrderPreserved="false">
+
+        <!-- Producto 1 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:orientation="vertical">
+
+            <!-- ImageView para la imagen del producto -->
+            <ImageView
+                android:id="@+id/imageProduct1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="" />
+
+            <!-- TextViews para precio y cantidad -->
+            <TextView
+                android:id="@+id/priceProduct1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Precio: $10" />
+
+            <TextView
+                android:id="@+id/quantityProduct1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Cantidad: 5" />
+
+        </LinearLayout>
+
+    </GridLayout>
+
+</LinearLayout>
